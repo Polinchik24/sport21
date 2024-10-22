@@ -23,6 +23,8 @@ namespace sport
         public MainWindow()
         {
             InitializeComponent();
+            Classes.Navigation.ActiveMain = MainFrame;
+            Classes.Navigation.ActiveMain.Navigate(new Pages.AuthPage());
         }
     }
 }

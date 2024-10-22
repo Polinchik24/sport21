@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\comcuru\Desktop\KT5_Module5_НиничукПолинаИСП411\sport\obj\Debug\
+C:\Users\comcuru\Desktop\Новая папка\sport21\sport\obj\Debug\
 sport
 none
 false
 DEBUG;TRACE
-C:\Users\comcuru\Desktop\KT5_Module5_НиничукПолинаИСП411\sport\App.xaml
-11151548125
+C:\Users\comcuru\Desktop\Новая папка\sport21\sport\App.xaml
+4968075698
 2-1556844510
-14-1789469552
-181299355520
-MainWindow.xaml;
+17-1346887255
+18-1834766674
+MainWindow.xaml;Pages\AddNewAuth.xaml;Pages\AuthPage.xaml;Pages\ListView.xaml;
 
-True
+False
 

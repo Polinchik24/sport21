@@ -8,19 +8,19 @@
         Title="ИС по прокату спортивного инвентаря" Height="600" Width="1000"
         WindowStartupLocation="CenterScreen">
     <Grid>
-        <Grid Grid.Row="0" Background="#FF76E383">
-            <Grid.RowDefinitions>
+        <Grid.RowDefinitions>
                 <RowDefinition Height="70"></RowDefinition>
-                <RowDefinition></RowDefinition>
-            </Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0" Background="#FF76E383">
             <Image Source="/Resources/logo.ico" HorizontalAlignment="Left" Margin="10" />
-            <Label Content="Прокат коньков" HorizontalAlignment="Center"
-                   VerticalAlignment="Center">
+            <Label Content="Прокат спортивного инвентаря" HorizontalAlignment="Center"
+                   FontSize="32"  VerticalAlignment="Center">
             </Label>
         </Grid>
-        <Frame x:Name="MainFrame"
+        <Frame x:Name="MainFrame" Grid.Row="1"
                NavigationUIVisibility="Hidden">
         </Frame>
-        
     </Grid>
 </Window>

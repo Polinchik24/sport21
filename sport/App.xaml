@@ -4,6 +4,13 @@
              xmlns:local="clr-namespace:sport"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+            <Setter Property="FontSize" Value="24"></Setter>
+        </Style>
          
     </Application.Resources>
 </Application>
